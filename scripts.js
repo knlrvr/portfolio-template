@@ -152,7 +152,7 @@ function editExistingElements(data) {
 }
 
 // Fetch JSON data
-fetch('/data.json')
+fetch('./data.json')
     .then(response => response.json())
     .then(data => editExistingElements(data))
     .catch(error => console.error('Error fetching data:', error));
