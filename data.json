@@ -1,0 +1,91 @@
+[
+    {
+        "name": "firstName lastName",
+        "currentTitle": "Senior Full Stack Developer",
+        "statement": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "location": "Charlotte, NC, USA",
+        "links": {
+            "email": "gmail.com",
+            "github": "github.com",
+            "twitter": "twitter.com",
+            "linkedin": "linkedin.com"
+        },
+        "about": "Etiam tempor orci eu lobortis elementum. Tortor dignissim convallis aenean et tortor at risus viverra adipiscing. Beep.",
+        "work": [
+            {
+                "company": "Tech Company",
+                "location": "Remote",
+                "title": "Senior Full Stack Developer",
+                "dates": "2021 &mdash; 2024",
+                "description": "Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget. Ultrices tincidunt arcu non sodales neque sodales ut etiam sit. Mattis pellentesque id nibh tortor id aliquet lectus. Id faucibus nisl tincidunt eget nullam non."
+            },
+            {
+                "company": "Tech Startup",
+                "location": "Remote",
+                "title": "Lead Full Stack Developer",
+                "dates": "2018 &mdash; 2021",
+                "description": "In ante metus dictum at tempor commodo ullamcorper a lacus. Posuere morbi leo urna molestie. Accumsan lacus vel facilisis volutpat est velit. Tortor aliquam nulla facilisi cras fermentum odio eu feugiat."
+            },
+            {
+                "company": "Healthcare Company",
+                "location": "Charlotte, NC",
+                "title": "Full Stack Developer",
+                "dates": "2015 &mdash; 2018",
+                "description": "Nisi porta lorem mollis aliquam ut porttitor. Eget egestas purus viverra accumsan in nisl nisi scelerisque eu. Purus ut faucibus pulvinar elementum integer enim neque volutpat. Tortor dignissim convallis aenean et tortor at risus viverra adipiscing."
+            },
+            {
+                "company": "Healthcare Company",
+                "location": "Charlotte, NC",
+                "title": "Full Stack Developer Intern",
+                "dates": "2014 &mdash; 2015",
+                "description": "Leo a diam sollicitudin tempor id eu nisl nunc mi. Quis lectus nulla at volutpat diam ut venenatis. Eget duis at tellus at urna condimentum. Elementum curabitur vitae nunc sed velit dignissim."
+            }
+        ],
+        "education": {
+            "school-name": "University of South Carolina",
+            "attended": "2011 - 2015",
+            "degree": "Bachelor of Science, Computer Science"
+        },
+        "skills": [
+            "JavaScript",
+            "TypeScript",
+            "React/Next.js",
+            "Three.js",
+            "GraphQL",
+            "WebRTC",
+            "SQL",
+            "Postgres",
+            "Python"
+        ],
+        "projects": {
+            "project-1": {
+                "title": "Project One",
+                "description": "Cursus risus at ultrices mi tempus imperdiet nulla malesuada. Tempor orci dapibus ultrices in iaculis nunc sed augue. In dictum non consectetur a erat nam.",
+                "stack": [
+                    "TypeScript",
+                    "React",
+                    "Next.js",
+                    "Tailwind"
+                ]
+            },
+            "project-2": {
+                "title": "Project Two",
+                "description": "Cras tincidunt lobortis feugiat vivamus at augue eget arcu. Cursus euismod quis viverra nibh cras. Est ante in nibh mauris.",
+                "stack": [
+                    "TypeScript",
+                    "React",
+                    "Vite",
+                    "StyleX"
+                ]
+            },
+            "project-3": {
+                "title": "Project Three",
+                "description": "Elit pellentesque habitant morbi tristique senectus et netus. Eget mi proin sed libero.",
+                "stack": [
+                    "Python",
+                    "SQL"
+                ]
+            }
+        }
+    }
+]
