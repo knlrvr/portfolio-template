@@ -14,7 +14,7 @@ This is a portfolio template anyone can use to get started! All you have to do i
 
 <a name="view"></a>
 ## View 
-[Live Demo]([https://abstract-knlrvr.vercel.app/](https://portfolio-template-hazel-psi.vercel.app/))
+[Live Demo](https://abstract-knlrvr.vercel.app/](https://portfolio-template-hazel-psi.vercel.app/)
 
 <a name="built-with"></a>
 ## Built With
