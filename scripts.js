@@ -17,6 +17,9 @@ function editExistingElements(data) {
     iconLinks[2].href = 'https://' + data[0].links.twitter;
     iconLinks[3].href = 'https://' + data[0].links.linkedin;
 
+    const profilePicture = sectionOne.querySelector('.intro__right img');
+    profilePicture.src = data[0].picture;
+
 
     // Section Two
     const sectionTwo = document.querySelector('.section__two');
@@ -109,6 +112,7 @@ function editExistingElements(data) {
 
     // Clear existing project cards
     const projectColumns = sectionSix.querySelector('.project__columns');
+    projectColumns.innerHTML = ''; // Clear existing content
 
     // Loop through the projects data and create new project cards
     const projects = data[0].projects;
@@ -123,7 +127,22 @@ function editExistingElements(data) {
             // Create project title with indicator
             const projectTitle = document.createElement('p');
             projectTitle.className = 'project-title';
-            projectTitle.innerHTML = `${project.title} <span class="project-indicator"></span>`;
+
+            // Create span element with dynamic background color
+            const projectIndicator = document.createElement('span');
+            projectIndicator.className = 'project-indicator';
+
+            // Set background color based on the project status
+            if (project.status === "online") {
+                projectIndicator.style.backgroundColor = '#22c55e'; // Set the desired color for "online"
+            } else if (project.status === "offline") {
+                projectIndicator.style.backgroundColor = '#ef4444'; // Set the desired color for "offline"
+            } else {
+                projectIndicator.style.backgroundColor = '#737373'; // Default color for other statuses
+            }
+
+            projectTitle.innerHTML = `${project.title} `;
+            projectTitle.appendChild(projectIndicator);
             projectCard.appendChild(projectTitle);
 
             // Create project description
@@ -148,11 +167,13 @@ function editExistingElements(data) {
         }
     }
 
-    // ... (continue updating other elements as needed)
+    // populate footer name 
+    const footerName = document.querySelector('footer .footer-text');
+    footerName.innerText = data[0].footerName;
 }
 
 // Fetch JSON data
-fetch('./data.json')
+fetch('/data.json')
     .then(response => response.json())
     .then(data => editExistingElements(data))
     .catch(error => console.error('Error fetching data:', error));
