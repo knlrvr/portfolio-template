@@ -3,14 +3,15 @@
         "name": "firstName lastName",
         "currentTitle": "Senior Full Stack Developer",
         "statement": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "location": "Charlotte, NC, USA",
+        "location": "Boston, MA, USA",
         "links": {
             "email": "gmail.com",
             "github": "github.com",
             "twitter": "twitter.com",
             "linkedin": "linkedin.com"
         },
-        "about": "Etiam tempor orci eu lobortis elementum. Tortor dignissim convallis aenean et tortor at risus viverra adipiscing. Beep.",
+        "about": "Mauris ultrices eros in cursus turpis massa tincidunt dui ut. In mollis nunc sed id. Odio ut enim blandit volutpat. Cursus sit amet dictum sit amet justo donec. In pellentesque massa placerat duis ultricies lacus sed turpis tincidunt. Tempor commodo ullamcorper a lacus. Pretium aenean pharetra magna ac. Beep boop.",
+        "picture": "https://images.unsplash.com/photo-1603786419864-d6e953c11830",
         "work": [
             {
                 "company": "Tech Company",
@@ -61,6 +62,7 @@
             "project-1": {
                 "title": "Project One",
                 "description": "Cursus risus at ultrices mi tempus imperdiet nulla malesuada. Tempor orci dapibus ultrices in iaculis nunc sed augue. In dictum non consectetur a erat nam.",
+                "status": "online",
                 "stack": [
                     "TypeScript",
                     "React",
@@ -71,6 +73,7 @@
             "project-2": {
                 "title": "Project Two",
                 "description": "Cras tincidunt lobortis feugiat vivamus at augue eget arcu. Cursus euismod quis viverra nibh cras. Est ante in nibh mauris.",
+                "status": "offline",
                 "stack": [
                     "TypeScript",
                     "React",
@@ -81,11 +84,23 @@
             "project-3": {
                 "title": "Project Three",
                 "description": "Elit pellentesque habitant morbi tristique senectus et netus. Eget mi proin sed libero.",
+                "status": "online",
                 "stack": [
                     "Python",
-                    "SQL"
+                    "Postgres"
+                ]
+            },
+            "project-4": {
+                "title": "Project Four",
+                "description": "Elit pellentesque habitant morbi tristique senectus et netus. Eget mi proin sed libero.",
+                "status": "online",
+                "stack": [
+                    "HTML",
+                    "CSS",
+                    "JavaScript"
                 ]
             }
-        }
+        },
+        "footerName": "firstLast"
     }
 ]
