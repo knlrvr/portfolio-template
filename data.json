@@ -72,6 +72,22 @@
                 ]
             },
             "project-3": {
+                "title": "KeepUp",
+                "description": "KeepUp is a full stack social media app. KeepUp allows users to post 'notes' ranging from 1 to 240 characters.",
+                "status": "offline",
+                "stack": [
+                    "TypeScript",
+                    "React",
+                    "Next.js",
+                    "Tailwind",
+                    "tRPC",
+                    "Prisma",
+                    "PlanetScale",
+                    "Upstash",
+                    "NextAuth"
+                ]
+            },
+            "project-4": {
                 "title": "The Sky Is Fake",
                 "description": "The Sky Is Fake is a full stack social media/image sharing app.",
                 "status": "online",
@@ -84,7 +100,19 @@
                     "Clerk"
                 ]
             },
-            "project-4": {
+            "project-5": {
+                "title": "Abstract",
+                "description": "Abstract is an innovative ecommerce store that offers a unique focus on concepts related to consumerism and materialism.",
+                "status": "online",
+                "stack": [
+                    "JavaScript",
+                    "React",
+                    "Next.js",
+                    "Tailwind",
+                    "MongoDB"
+                ]
+            },
+            "project-6": {
                 "title": "knlrvr.dev",
                 "description": "My personal portfolio!",
                 "status": "online",
