@@ -241,12 +241,14 @@ ul {
 .project__columns {
     margin-top: 1rem;
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    /* grid-template-columns: repeat(2, minmax(0, 1fr)); */
+    columns: 2;
     gap: 0.75rem;
     padding-bottom: 1rem;
 }
 
 .project__card {
+    break-inside: avoid-column;
     display: flex;
     flex-direction: column;
     border: 1px solid #e5e5e5;
@@ -254,6 +256,7 @@ ul {
     width: 100%;
     padding: 1rem;
     box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    margin-bottom: 1.25rem;
 }
 
 .project-title {
@@ -344,7 +347,8 @@ footer p {
     }
 
     .project__columns {
-        grid-template-columns: repeat(1, minmax(0, 1fr));
+        /* grid-template-columns: repeat(1, minmax(0, 1fr)); */
+        columns: 1;
     }
 
     .section__two {
