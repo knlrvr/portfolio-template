@@ -12,6 +12,8 @@
 ## Description
 This is a portfolio template anyone can use to get started! All you have to do is modify the information in the json file and you're good to go! 
 
+This portfolio template was inspired by [this CV created by Bartosz Jarocki with shadcn & next.js](https://cv.jarocki.me/). I wanted to recreate the design with just HTML & CSS. 
+
 <a name="view"></a>
 ## View 
 [Live Demo](https://portfolio-template-hazel-psi.vercel.app/)
