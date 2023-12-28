@@ -1,0 +1,103 @@
+[
+    {
+        "name": "Kane Lariviere",
+        "currentTitle": "Full Stack Developer",
+        "statement": "My work is focused on building engaging & memorable experiences for the web while advocating for accessibility, affordability, & equity.",
+        "location": "Charlotte, NC, USA",
+        "links": {
+            "email": "gmail.com",
+            "github": "github.com/knlrvr",
+            "twitter": "twitter.com/knlrvr",
+            "linkedin": "linkedin.com/in/kane-lariviere"
+        },
+        "about": "As a developer, I've had to wear many hats. I deliver high-quality, production-ready code for a diverse array of projects for clients, tailored to their needs and the needs of the commununities they serve. My work mostly consists of code, but I've had the pleasure of working in various areas of digital design, including but not limited to front-end development, UI/UX design, & graphic design. It's my goal in my work to commit myself to accessibility, equity, education, & sustainability and I do my best to contribute to those ideals whenever and however I can. Outside of work, I try to hone my creativity through multiple outlets. I write & play music, I'm an avid D&D nerd and gamer, I love to explore the world with my fiancée & play with my dog, Sundance, and my cat, Tadashi.",
+        "picture": "./assets/kane.jpg",
+        "work": [
+            {
+                "company": "KNLRVR",
+                "location": "Remote",
+                "title": "Freelance Full Stack Developer",
+                "dates": "2021 &mdash; Present",
+                "description": "Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget. Ultrices tincidunt arcu non sodales neque sodales ut etiam sit. Mattis pellentesque id nibh tortor id aliquet lectus. Id faucibus nisl tincidunt eget nullam non."
+            }
+        ],
+        "education": {
+            "school-name": "Western Governors University",
+            "attended": "2023 &mdash; 2024",
+            "degree": "Bachelor of Science, Computer Science"
+        },
+        "skills": [
+            "HTML/CSS",
+            "JavaScript",
+            "TypeScript",
+            "React/Next.js",
+            "Node.js",
+            "Tailwind",
+            "SQL",
+            "NoSQL",
+            "Postgres",
+            "Firebase",
+            "Supabase",
+            "Python",
+            "Django/Flask",
+            "Playwright"
+        ],
+        "projects": {
+            "project-1": {
+                "title": "TTRPCompanion",
+                "description": "TTRPCompanion is a gaming utility app that allows users to track their character's stats in D&D or other TTRPG Campaigns.",
+                "status": "online",
+                "stack": [
+                    "TypeScript",
+                    "React",
+                    "Next.js",
+                    "Tailwind",
+                    "tRPC",
+                    "Prisma",
+                    "Supabase",
+                    "NextAuth",
+                    "Playwright"
+                ]
+            },
+            "project-2": {
+                "title": "The View From Inside",
+                "description": "The View From Inside is an exceptionally performant blog powered by Sanity's dynamic capabilities.",
+                "status": "offline",
+                "stack": [
+                    "TypeScript",
+                    "React",
+                    "Next.js",
+                    "Tailwind",
+                    "Sanity"
+                ]
+            },
+            "project-3": {
+                "title": "The Sky Is Fake",
+                "description": "The Sky Is Fake is a full stack social media/image sharing app.",
+                "status": "online",
+                "stack": [
+                    "TypeScript",
+                    "React",
+                    "Next.js",
+                    "Tailwind",
+                    "Convex",
+                    "Clerk"
+                ]
+            },
+            "project-4": {
+                "title": "knlrvr.dev",
+                "description": "My personal portfolio!",
+                "status": "online",
+                "stack": [
+                    "TypeScript",
+                    "React",
+                    "Next.js",
+                    "Tailwind",
+                    "Framer Motion",
+                    "Convex"
+                ]
+            }
+        },
+        "footerName": "firstLast"
+    }
+]
