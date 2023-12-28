@@ -1,6 +1,6 @@
 <h2 align="center">HTML & CSS Portfolio Template</h2>
 
-![Screenshot 2023-12-27 at 5 08 59 PM](https://github.com/knlrvr/portfolio-template/assets/91632194/3ec79c41-9d3e-4452-942f-319d4513c538)
+![Screenshot 2023-12-27 at 10 14 16 PM](https://github.com/knlrvr/portfolio-template/assets/91632194/b987501a-91a3-42f7-8b62-c25c47f65ae5)
 
 ## Table of Contents
 - [Description](#description)
@@ -12,7 +12,7 @@
 ## Description
 This is a portfolio template anyone can use to get started! All you have to do is modify the information in the json file and you're good to go! 
 
-This portfolio template was inspired by [this CV created by Bartosz Jarocki with shadcn & next.js](https://cv.jarocki.me/). I wanted to recreate the design with just HTML & CSS. 
+This portfolio template was inspired by [this CV created by Bartosz Jarocki with shadcn & next.js](https://cv.jarocki.me/). I really liked the minimal design & wanted to recreate it with just HTML & CSS and make it available! 
 
 <a name="view"></a>
 ## View 
