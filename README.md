@@ -9,7 +9,7 @@
 
 <a name="description"></a>
 ## Description
-I created [this portfolio template](https://portfolio-template-hazel-psi.vercel.app/) and filled it with my own information, which I just copied from [my actual portfolio](https://www.knlrvr.dev). Learn more about the template [here](https://github.com/knlrvr/portfolio-template).
+I created [this portfolio template](https://portfolio-template-hazel-psi.vercel.app/) and filled it with my own information, which I just copied from [my actual portfolio](https://www.knlrvr.dev). Learn more about the template [here](https://github.com/knlrvr/portfolio-template). I did change some of the styling from what's in the template, specifically the projects since I liked the look of `columns` rather than `grid`. 
 
 <a name="view"></a>
 ## View 
