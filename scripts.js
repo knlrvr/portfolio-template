@@ -69,29 +69,33 @@ function editExistingElements(data) {
 
     // Clear existing edu cards
     sectionFour.innerHTML = '<h2>Education &mdash;</h2>';
-    
+
     // Loop through the education data and create new edu cards
-    const education = data[0].education;
-    const eduCard = document.createElement('div');
-    eduCard.className = 'edu__card';
-    
-    // Create edu details element
-    const eduDetails = document.createElement('div');
-    eduDetails.className = 'edu-details';
-    eduDetails.innerHTML = `
-        <p class="edu-school">${education['school-name']}</p>
-        <span class="edu-dates">${education.attended}</span>
-    `;
-    eduCard.appendChild(eduDetails);
-    
-    // Create edu degree element
-    const eduDegree = document.createElement('p');
-    eduDegree.className = 'edu-degree';
-    eduDegree.textContent = education.degree;
-    eduCard.appendChild(eduDegree);
-    
-    // Append the edu card to the section
-    sectionFour.appendChild(eduCard);
+    const educationData = data[0].education; // Store education data in a variable
+    educationData.forEach(education => {
+        // Create edu card for each education entry
+        const eduCard = document.createElement('div');
+        eduCard.className = 'edu__card';
+
+        // Create job details element
+        const eduDetails = document.createElement('div');
+        eduDetails.className = 'edu-details';
+        eduDetails.innerHTML = `
+            <p class="edu-school">${education.schoolName}</p>
+            <span class="edu-dates">${education.attended}</span>
+        `;
+        eduCard.appendChild(eduDetails);
+
+        // Create edu degree element
+        const eduDegree = document.createElement('p');
+        eduDegree.className = 'edu-degree';
+        eduDegree.textContent = education.degree;
+        eduCard.appendChild(eduDegree);
+
+        // Append the edu card to the section
+        sectionFour.appendChild(eduCard);
+    });
+
 
     // Section Five
     // Edit existing elements within the "section__five" section
@@ -109,23 +113,72 @@ function editExistingElements(data) {
         skillsList.appendChild(skillItem);
     });
 
-    // Section Six
-    const sectionSix = document.querySelector('.section__six');
+// Section Six
+const sectionSix = document.querySelector('.section__six');
 
-    // Clear existing project cards
-    const projectColumns = sectionSix.querySelector('.project__columns');
-    projectColumns.innerHTML = ''; // Clear existing content
+// Clear existing project cards
+const projectColumns = sectionSix.querySelector('.project__columns');
+projectColumns.innerHTML = ''; // Clear existing content
 
-    // Loop through the projects data and create new project cards
-    const projects = data[0].projects;
-    for (const key in projects) {
-        if (Object.hasOwnProperty.call(projects, key)) {
-            const project = projects[key];
+// Loop through the projects data and create new project cards
+const projects = data[0].projects;
+for (const key in projects) {
+    if (Object.hasOwnProperty.call(projects, key)) {
+        const project = projects[key];
 
+        // Only create a link if the project status is 'online'
+        if (project.status === 'online') {
             // Create project card
-            const projectCard = document.createElement('article');
-            projectCard.className = 'project__card';
+            const projectCard = document.createElement('a');
+            projectCard.className = 'project__card__link';
+            projectCard.href = project.url; // Set the href attribute to the project URL
+            projectCard.target = "_blank";
 
+            // Create project title with indicator
+            const projectTitle = document.createElement('p');
+            projectTitle.className = 'project-title';
+
+            // Create span element with dynamic background color
+            const projectIndicator = document.createElement('span');
+            projectIndicator.className = 'project-indicator';
+
+            // Set background color based on the project status
+            if (project.status === "online") {
+                projectIndicator.style.backgroundColor = '#22c55e'; // Set the desired color for "online"
+            } else if (project.status === "offline") {
+                projectIndicator.style.backgroundColor = '#ef4444'; // Set the desired color for "offline"
+            } else {
+                projectIndicator.style.backgroundColor = '#737373'; // Default color for other statuses
+            }
+
+            projectTitle.innerHTML = `${project.title} `;
+            projectTitle.appendChild(projectIndicator);
+            projectCard.appendChild(projectTitle);
+
+            // Create project description
+            const projectDescription = document.createElement('p');
+            projectDescription.className = 'project-description';
+            projectDescription.textContent = project.description;
+            projectCard.appendChild(projectDescription);
+
+            // Create tech list
+            const techList = document.createElement('ul');
+            techList.className = 'tech-list';
+            project.stack.forEach(tech => {
+                const techItem = document.createElement('li');
+                techItem.className = 'tech';
+                techItem.textContent = tech;
+                techList.appendChild(techItem);
+            });
+            projectCard.appendChild(techList);
+
+            // Append the project card to the project columns
+            projectColumns.appendChild(projectCard);
+        } else {
+            // If the project status is not 'online', create a non-clickable card
+            const projectCard = document.createElement('div');
+            projectCard.className = 'project__card';
+            
             // Create project title with indicator
             const projectTitle = document.createElement('p');
             projectTitle.className = 'project-title';
@@ -168,6 +221,8 @@ function editExistingElements(data) {
             projectColumns.appendChild(projectCard);
         }
     }
+}
+
 
     // populate footer name 
     const footerName = document.querySelector('footer .footer-text');
