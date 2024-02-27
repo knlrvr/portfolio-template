@@ -14,7 +14,7 @@ This is a portfolio template anyone can use to get started! All you have to do i
 
 This portfolio template was inspired by [this CV created by Bartosz Jarocki with shadcn & next.js](https://cv.jarocki.me/). I really liked the minimal design & wanted to recreate it with just HTML & CSS! 
 
-**Update > 02/27/24** - Each project card is now a link, but is only clickable if the status within the json is set to 'online'. Any other projects set to 'offline' will not generate with a link. 
+**Update - 02/27/24**: Each project card is now a link, but is only clickable if the status within the json is set to 'online'. Any other projects set to 'offline' will not generate with a link. 
 
 <a name="view"></a>
 ## View 
