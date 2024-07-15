@@ -1,33 +1,33 @@
 [
     {
-        "name": "Kane Lariviere",
-        "currentTitle": "Full Stack Developer",
-        "statement": "My work is focused on building engaging & memorable experiences for the web while advocating for accessibility, affordability, & equity.",
-        "location": "Charlotte, NC, USA",
+        "name": "first Last",
+        "currentTitle": "Software Developer",
+        "statement": "lorem ipsum blah blah blah",
+        "location": "Smallville, USA",
         "links": {
-            "github": "github.com/knlrvr",
-            "twitter": "twitter.com/knlrvr",
-            "linkedin": "linkedin.com/in/kane-lariviere"
+            "github": "github.com",
+            "twitter": "twitter.com",
+            "linkedin": "linkedin.com"
         },
-        "about": "As a developer, I've had to wear many hats. I deliver high-quality, production-ready code for a diverse array of projects for clients, tailored to their needs and the needs of the commununities they serve. My work mostly consists of code, but I've had the pleasure of working in various areas of digital design, including but not limited to front-end development, UI/UX design, & graphic design. It's my goal in my work to commit myself to accessibility, equity, education, & sustainability and I do my best to contribute to those ideals whenever and however I can.",
+        "about": "Hi! I'm [Name]. I'm a [Title] based in [Location].",
         "picture": "./assets/kane.jpg",
         "work": [
             {
-                "company": "KNLRVR",
+                "company": "Company Name",
                 "location": "Remote",
-                "title": "Freelance Full Stack Developer",
+                "title": "Software Developer",
                 "dates": "2021 &mdash; Present",
                 "description": "Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget. Ultrices tincidunt arcu non sodales neque sodales ut etiam sit. Mattis pellentesque id nibh tortor id aliquet lectus. Id faucibus nisl tincidunt eget nullam non."
             }
         ],
         "education": [
             {
-                "schoolName": "Western Governors University",
+                "schoolName": "State College",
                 "attended": "2023 &mdash; 2024",
                 "degree": "Bachelor of Science, Computer Science"
             },
             {
-                "schoolName": "Gaston College",
+                "schoolName": "Community College",
                 "attended": "2020 &mdash; 2022",
                 "degree": "Associate of Applied Science"
             }
@@ -42,103 +42,56 @@
             "SQL",
             "NoSQL",
             "Postgres",
-            "Firebase",
-            "Supabase",
             "Python",
             "Django/Flask",
+            "Java",
+            "Spring Boot",
             "Playwright",
-            "Java"
+            "Jest"
         ],
         "projects": {
             "project-1": {
-                "url": "https://ttrpcompanion.vercel.app/",
-                "title": "TTRPCompanion",
-                "description": "TTRPCompanion is a gaming utility app that allows users to track their character's stats in D&D or other TTRPG Campaigns.",
+                "url": "https://github.com/knlrvr",
+                "title": "Online Project",
+                "description": "Tellus in metus vulputate eu scelerisque felis imperdiet. Tempor orci dapibus ultrices in iaculis nunc sed augue.",
                 "status": "online",
                 "stack": [
                     "TypeScript",
                     "React",
                     "Next.js",
                     "Tailwind",
-                    "tRPC",
-                    "Prisma",
-                    "Supabase",
-                    "NextAuth",
-                    "Playwright"
-                ]
-            },
-            "project-2": {
-                "url": "",
-                "title": "The View From Inside",
-                "description": "The View From Inside is an exceptionally performant blog powered by Sanity's dynamic capabilities.",
-                "status": "offline",
-                "stack": [
-                    "TypeScript",
-                    "React",
-                    "Next.js",
-                    "Tailwind",
-                    "Sanity"
-                ]
-            },
-            "project-3": {
-                "url": "",
-                "title": "KeepUp",
-                "description": "KeepUp is a full stack social media app. KeepUp allows users to post 'notes' ranging from 1 to 240 characters.",
-                "status": "offline",
-                "stack": [
-                    "TypeScript",
-                    "React",
-                    "Next.js",
-                    "Tailwind",
-                    "tRPC",
-                    "Prisma",
-                    "PlanetScale",
-                    "Upstash",
-                    "NextAuth"
-                ]
-            },
-            "project-4": {
-                "url": "https://theskyisfake.org",
-                "title": "The Sky Is Fake",
-                "description": "The Sky Is Fake is a full stack social media/image sharing app.",
-                "status": "online",
-                "stack": [
-                    "TypeScript",
-                    "React",
-                    "Next.js",
-                    "Tailwind",
+                    "shadcn/ui",
                     "Convex",
                     "Clerk"
                 ]
             },
-            "project-5": {
-                "url": "https://abstract-eight.vercel.app/",
-                "title": "Abstract",
-                "description": "Abstract is an innovative ecommerce store that offers a unique focus on concepts related to consumerism and materialism.",
-                "status": "online",
+            "project-2": {
+                "url": "https://github.com/knlrvr",
+                "title": "Offline Project",
+                "description": "Lorem mollis aliquam ut porttitor leo a diam sollicitudin. Tortor at auctor urna nunc id. ",
+                "status": "offline",
                 "stack": [
-                    "JavaScript",
-                    "React",
-                    "Next.js",
-                    "Tailwind",
-                    "MongoDB"
+                    "Java",
+                    "Spring Boot",
+                    "Maven",
+                    "MongoDB",
+                    "Pulsar"
                 ]
             },
-            "project-6": {
-                "url": "https://knlrvr.dev",
-                "title": "knlrvr.dev",
-                "description": "My personal portfolio!",
+            "project-3": {
+                "url": "https://github.com/knlrvr",
+                "title": "Online Project",
+                "description": "Lacus vel facilisis volutpat est. Porttitor rhoncus dolor purus non enim praesent elementum.",
                 "status": "online",
                 "stack": [
-                    "TypeScript",
-                    "React",
-                    "Next.js",
-                    "Tailwind",
-                    "Framer Motion",
-                    "Convex"
+                    "Vue 3",
+                    ".NET Core",
+                    "Postgres",
+                    "Pinia",
+                    "Vite"
                 ]
             }
         },
-        "footerName": "KNLRVR"
+        "footerName": "first Last"
     }
 ]
